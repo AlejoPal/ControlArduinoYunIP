@@ -1,0 +1,59 @@
+#fondo{
+    background-image: url("Imagenes/Background.png");
+}
+#fondos{
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+#ImagenBase{
+    position: absolute;
+    z-index: -1;
+}
+
+#Helice{
+    left:500px;
+    position: relative;
+    z-index: 1;
+}
+.img1{
+    border-radius: 100%;
+}
+.imgd{
+    border-radius: 100%;
+    animation-name: girard;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    display: inline-block;
+    position:absolute;
+  
+  }
+
+.imgi{
+    border-radius: 100%;
+    animation-name: girari;
+    animation-duration: 1s;
+    animation-iteration-count: 3;
+    animation-timing-function: linear;
+    display: inline-block;
+    position:absolute;
+  
+  }
+
+  
+@keyframes girard{
+    from{
+        transform: rotate(0deg);
+    }to{
+        transform: rotate(360deg); 
+    }
+}
+  
+@keyframes girari{
+    from{
+        transform: rotate(360deg);
+    }to{
+        transform: rotate(0deg); 
+    }
+}

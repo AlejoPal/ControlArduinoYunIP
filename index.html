@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+
+        <div id="fondo" class="my-4">
+            <div class="row">
+                    <img src="Imagenes/Background.png" class="img-fluid">
+
+                <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4" >
+                    <img class="al" src="Imagenes/560216.png" class="img-fluid" width="80px" height="60px">
+                    <img class="al" src="Imagenes/560278.png" class="img-fluid" width="80px" height="60px">
+                 </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 ">
+
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4">
+                    <h2 class="tinf" style="color:chocolate;"><b>@ELECTRONIC-DESIGN</b></h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class = "col-sm-12 col-md-6 col-lg-6 col-xl-6 d-flex justify-content-center">
+                <button type="button" class="btn btn-success" onclick="dirIzquierda()">Izquierda</button>
+            </div>
+            <div class = "col-sm-12 col-md-6 col-lg-6 col-xl-6 d-flex justify-content-center">
+                <button type="button" class="btn btn-danger" onclick="dirDerecha()">Derecha</button>
+            </div>
+
+        </div>
+        <div class="row my-4">
+            <div class = "col-sm-12 col-md-12 col-lg-12 col-xl-12 d-flex justify-content-center">
+                <div class="slidecontainer2"> 
+                    <input type="range" min="1" max="10" value="1" class="slider" id="myRange2" height= "2"> 
+                    <label>Vueltas: <span id="demo2"/></label><br> 
+                </div>
+            </div>            
+        </div>
+
+        <div class="row my-3">
+            <div class = "col-sm-12 col-md-12 col-lg-12 col-xl-12 d-flex justify-content-center">
+                <button type="button" class="btn btn-dark" onclick="Parar()">Parar</button>
+                
+            </div>
+        </div>
+
+        <div class="row my-5 justify-content-center">
+            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 d-flex justify-content-center ">
+                    
+                <img id="Helice"  class="img1 img-fluid"  src="Imagenes/Helicoptero.png" alt="">
+                <img id="ImagenBase" class="img-fluid" src="Imagenes/ImagenArduino.png" alt=""><br>
+            
+            </div>
+
+        </div>
+        <br><br><br><br><br><br><br><br>
+        <div class="row my-5" id="Footer" style="background-color:darkblue">
+
+            <h3 class="Par text-center" style="color:chocolate;"><b>CONTACTO</b></h3>
+            <br>
+            <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 my-2">
+                <center><img  src="Imagenes/560216.png" class="img-fluid" width="80px" height="60px"></center>
+                <p>
+                <center><a class="Par"  style="color: darkorange;"><b>Alejandro Palacios</b></a></center>
+                </p>
+                <p>
+                <center><a class="Par" href="https://wa.me/573012738506" style="color: darkorange;"><b>3012738506</b></a></center>
+                </p>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 my-2">
+
+                <center><img  src="Imagenes/560278.png" class="img-fluid" width="80px" height="60px"></center>
+                <p>
+                <center><a class="Par"  style="color: darkorange;"><b>Emilia Meneses</b></a></center>
+                </p>
+                <p>
+                <center><a class="Par" href="https://wa.me/573165337263" style="color: darkorange;"><b>3165337263</b></a></center>
+                </p>
+            </div>
+        
+
+        </div>
+
+    </div>
+    <script src="funciones.js"></script>
+</body>
+</html>
