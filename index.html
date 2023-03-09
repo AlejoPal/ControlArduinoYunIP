@@ -28,27 +28,32 @@
                 </div>
             </div>
         </div>
-        <div class="row">
+        <div class="row mb-5">
+            <br>
+            <h1 class="Principal text-center" style="color:rgba(8, 52, 91, 0.947);"><b>CONTROL DE MOTOR PASO A PASO</b></h1>
+    
             <div class = "col-sm-12 col-md-6 col-lg-6 col-xl-6 d-flex justify-content-center">
-                <button type="button" class="btn btn-success" onclick="dirIzquierda()">Izquierda</button>
+                <br>
+                <button type="button" class="btn btn btn-outline-dark" style="background-color:rgb(208, 55, 55); border-color:rgb(90, 12, 12); color:white; width:210px; height:50px" onclick="dirIzquierda()">GIRAR A LA IZQUIERDA</button>
+                <br>
             </div>
             <div class = "col-sm-12 col-md-6 col-lg-6 col-xl-6 d-flex justify-content-center">
-                <button type="button" class="btn btn-danger" onclick="dirDerecha()">Derecha</button>
+                <button type="button" class="btn btn-outline-primary" style="background-color:rgb(11, 90, 238); border-color:rgb(57, 40, 40); color:white; width:210px; height:50px"  onclick="dirDerecha()">GIRAR A LA DERECHA</button>
             </div>
 
         </div>
         <div class="row my-4">
             <div class = "col-sm-12 col-md-12 col-lg-12 col-xl-12 d-flex justify-content-center">
                 <div class="slidecontainer2"> 
-                    <input type="range" min="1" max="10" value="1" class="slider" id="myRange2" height= "2"> 
-                    <label>Vueltas: <span id="demo2"/></label><br> 
+                    <input type="range" min="1" max="10" value="1" class="slider" class="pan" id="myRange2" height= "3"> 
+                    <label>Numero de Vueltas: <span id="demo2"/></label><br> 
                 </div>
             </div>            
         </div>
 
-        <div class="row my-3">
+        <div class="row my-2">
             <div class = "col-sm-12 col-md-12 col-lg-12 col-xl-12 d-flex justify-content-center">
-                <button type="button" class="btn btn-dark" onclick="Parar()">Parar</button>
+                <button type="button" class="btn btn-dark" style="width:150px; height:40px" onclick="Parar()">PARAR</button>
                 
             </div>
         </div>
