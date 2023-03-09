@@ -1,6 +1,11 @@
 #fondo{
     background-image: url("Imagenes/Background.png");
 }
+.principal{
+    text-align: center;
+    font-family:"fairwater Script";
+
+}
 #fondos{
     margin-top: 0%;
     margin-bottom: 0%;
